@@ -1,11 +1,6 @@
-# study-React
-Study React Library
+## ☣︎리액트 소개
 
-<br/>
-
-## 리액트 소개
-
-- ### 리액트란
+- ### ☣︎리액트란
   - 자바스크립트 라이브러리
   - UI 라이브러리 (화면을 만들기 위한 기능을 모아둔 곳)
     - `NGULARJS`, `VUE.js` , `React`등
@@ -29,3 +24,4 @@ Study React Library
 - ### Create-React-App
   - 프로젝트 생성도구(ex : 스프링 이니셜라이져)
   - terminal 상에 `npx create-react-app my-app`입력
+

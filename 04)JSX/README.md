@@ -1,10 +1,14 @@
 ## JSX
 
+<br/>
+
 - ### JSX란
   - JavaScript = **JS**
   - Syntax extension JavaScript(자바스크립트의 확장문법) = **JSX**
     - XML/HTML + JavaScript = **JSX**
     - `const element = <h1>Hello, world</h1>;`
+
+<br/>
 
 - ### JSX의 역할
   - JSX는 내부적으로 XML/HTML코드를 JS코드로 변화하는 과정을 거친다
@@ -57,6 +61,8 @@
       )
     ```
 
+<br/>
+
 - ### JSX의 장점
   - 간결한 코드
     - `<div>Hello {this.props.toWhat}</div>;` 사용한 경우
@@ -65,6 +71,7 @@
     - 버그를 발견하기 쉬움
   - Injection Attacks 방어   
 
+<br/>
 
 - ### JSX 사용예제
   ``` javascript

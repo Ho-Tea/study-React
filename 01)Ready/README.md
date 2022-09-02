@@ -23,6 +23,7 @@
       - 오른쪽 그림은 단 한개의 **HTML**파일만 존재(**SPA**)
         - 동적으로 body tag부분을 채워넣는다(=React)
 
+<br/>
 
 - ### CSS
   - **Design**
@@ -54,6 +55,8 @@
       - `function sum(a,b) {return a+b;}` 
     2) arrow function expression 사용
       - `const multiply = (a,b) => {return a*b;}`
+
+<br/>
 
 - ### develop enviroment
   - node.js, npm(package) 설치 

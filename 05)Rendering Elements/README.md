@@ -1,5 +1,7 @@
 ## Elements
 
+<br/>
+
 - ### Elements 란
   - 리액트 앱을 구성하는 요소
   - 리액트 앱을 구성하는 가장 작은 블록들
@@ -18,6 +20,7 @@
   - **React Elements가 기술한 내용을 토대로 실제 우리가 화면에서 보게되는<br>DOM Elements가 만들어 진다**
   - 앞으로 Elements라고 하고 DOM Elements라고 특정해서 말하지 않는다면<br> React Elements를 의미한다고 생각하자
 
+<br/>
 
 - ### React Elements VS DOM Elements
   <img src="../imagefile/4.png">
@@ -31,6 +34,7 @@
     - 그렇게 생성된것이 React Elements(자바스크립트 객체 형태로 존재)
     - React는 이 Elements를 이용하여 실제 화면에서 보게될 DOM Elements를 생성하게 된다
   
+<br/>
 
 - ### Elements의 생김새
   - 리액트 Elements는 자바스크립트 객체 형태로 존재한다
@@ -65,6 +69,8 @@
       </b>
     </button>
     ```
+
+<br/>
 
 - ### React.createElement가 동작하는 과정
   ``` javascript
@@ -113,6 +119,9 @@
     }
     ```
 
+<br/>
+
+
 - ### React Elements의 특징
   - immutable = 불변성
   - **Elements 생성 후**에는 children이나 attributes를 바꿀 수 없다
@@ -122,6 +131,8 @@
 
     - 각 동그란 원들은 Elements
     - 빨간색 부분은 변경된 Elements들
+
+<br/>
 
 - ### Elements 렌더링 하기
   `<div id="root"></div> `
@@ -137,6 +148,8 @@
     - `ReactDOM.render(element, document.getElementById('root'));`
     - 첫번재 파라미터인 React Elements를 두번째 파라미터인 DOM Elements로 렌더링 하는 역할을 한다 **(가상에서 현실로)**
     
+<br/>
+
 - **???**
   - JSX코드를 렌더링하여 HTML코드로 나타내면 어떤식으로 변할까?
   - <img src="../imagefile/7.png">

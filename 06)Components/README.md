@@ -62,6 +62,8 @@
   <img src="../imagefile/9.jpeg">
 
 
+<br/>
+
 - ### Props (components의 입력)
   - component의 속성
     - 붕어빵의 재료
@@ -71,6 +73,8 @@
     - <img src="../imagefile/11.png">
 
   - **컴포넌트에 전달할 다양한 정보를 담고 있는 자바스크립트 객체**
+
+<br/>
 
 - ### Props의 특징
   - Read-Only
@@ -115,6 +119,8 @@
   }
   ```
 
+<br/>
+
 - ### Component 만들기
   - **Function Component**
     - ``` javascript
@@ -135,6 +141,8 @@
   - Component이름은 항상 대문자
     - **(소문자로 입력시 HTML tag로 인식)**
 
+<br/>
+
 - ### Component 렌더링
   ``` javascript
   <!-- Component -->
@@ -152,9 +160,13 @@
   );
   ```
 
+<br/>
+
 - ### Component 합성
   - <img src="../imagefile/12.png">
   - <img src="../imagefile/13.png">
+
+<br/>
 
 - ### Component 추출
   - 재사용성, 개발속도 up

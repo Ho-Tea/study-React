@@ -7,11 +7,13 @@ import reportWebVitals from './reportWebVitals';
 import Library from './chapter_03/Library'; //우리가 만든거 랜더링 작업
 import Clock from './chapter_04/Clock';
 import CommentList from './chapter_05/CommentList';
+import Accommodate from './chapter_07/Accommodate';
+import ConfirmButton from './chapter_08/ConfirmButton';
 
 const root = ReactDOM.createRoot(document.getElementById('root')); //ReactDom을 사용하여 rootDom에 랜더링 하는 작업
 root.render(
   <React.StrictMode>
-    <CommentList />
+    <ConfirmButton />
   </React.StrictMode>
   );
 

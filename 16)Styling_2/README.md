@@ -22,3 +22,6 @@
 
     - styled-components의 스타일 확장하기
       - <img src ="../imagefile/59.png">
+
+
+**`npm install --save styled-components` 해당 폴더 안에서 실행하기**

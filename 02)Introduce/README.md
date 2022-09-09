@@ -27,6 +27,15 @@
 
 <br/>
 
-- ### Create-React-App(CRA)
+- ### 1)개발환경 직접 구축
+  - **03)Intro**
+
+<br/>
+
+- ### 2)Create-React-App(CRA) 
   - 프로젝트 생성도구(ex : 스프링 이니셜라이져)
   - terminal 상에 `npx create-react-app my-app`입력(my-app은 프로젝트 이름)
+  - 주요 명령어 : 4개의 npm 스크립트 명령어
+  - 기본설정에서는 아무런 폴리필(polyfill)도 포함되지 않는다 
+    - 폴리필: 웹 개발에서 기능을 지원하지 않는 웹 브라우저 상의 기능을 구현하는 코드
+    - package설치와 import해서 사용

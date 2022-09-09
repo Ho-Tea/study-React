@@ -12,20 +12,30 @@
 
 - ### JSX의 역할
   - JSX는 내부적으로 XML/HTML코드를 JS코드로 변화하는 과정을 거친다
-  - JSX 코드를 JS코드로 변화하는 역할을 하는 것이 `createElement 함수`
+  - `createElement 함수`(=리액트 요소를 반환)
      ``` javascript
       React.createElement(
         type, //리액트 컴포넌트 or div(HTML tag) 등
         [props],  //리액트 컴포넌트 속성
         [...children] //현재 element가 포함하는 자식 element
       )
-        //children 예시
+        //예시
         /* <div>
-              <h1>자식1</h1>
-              <h2>자식2</h2>
+              <h1>hello</h1>
+              <h2>world</h2>
           </div>
+
+          createElement(
+            'div',
+            null,
+            createElement('h1', null, 'hello'),
+            createElement('h2', null, 'world'),
+          )
+
         */
     ```
+  - 대부분의 개발자는 `createElement`를 직접 작성하지 않는다 일반적으로 바벨(babel)의 도움을 받아서 JSX문법을 사용한다 <br>`createElement`보다는 JSX문법으로 작성하는 리액트 코드가 훨씬 가독성이 좋기 때문에
+  - **`createElemnt`를 JSX코드로 대체**
   - JSX를 사용한 코드
     ``` javascript
       class Hello extends React.Component { //Hello라는 리액트 컴포넌트
@@ -61,6 +71,20 @@
       )
     ```
 
+<br/>
+
+- ### 바벨
+  - 자바스크립트 코드를 변환해 주는 컴파일러
+  - 리액트에서는 JSX문법을 사용하기 위해 바벨을 사용한다
+  - **바벨**이 JSX문법으로 작성된 코드를 createElement함수를 호출하는 코드로 변환해 준다
+  - 바벨과 관련된 패키지 설치 후, JSX로 작성된 코드를 <br>createElement함수를 이용한 코드로 변환해 주는 바벨 플러그인을 이용
+
+<br/>
+
+- ### 웹팩
+  - 웹팩은 자바스크립트로 만든 프로그램을 배포하기 좋은 형태로 묶어주는 도구이다   
+
+## create-react-app 은 바벨과 웹팩을 포함한다
 <br/>
 
 - ### JSX의 장점

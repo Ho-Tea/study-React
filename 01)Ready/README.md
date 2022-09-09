@@ -35,8 +35,8 @@
   - 자료형
     - 동적 타이핑(`var`, `let`로 선언후 자료형은 나중에 결정된다)
     - `let n1 = 1234;` 
-    <br> 
-    `let arr4 = [true, 1, undefined, false, "h", 2, null, "i"]`
+     
+    - ex)`let arr4 = [true, 1, undefined, false, "h", 2, null, "i"]`
     <br>
     `console.log(arr4[3]) //false `
   - 연산자
@@ -47,6 +47,13 @@
     - 관계연산자(비교 연산자)
       - 일치연산자
         - ` a === b // a가 b와 값과 자료형이 모두 같다 `
+        ``` javascript
+        var a = 1;
+        var b = "1";
+        console.log(a == b); //true
+        console.log(a === b); //false
+        ```
+        
         - ` a !== b // a가 b와 값이나 자료형이 같지 않다`
     - etc
 

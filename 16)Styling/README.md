@@ -7,7 +7,14 @@
   - selector, style
   - 기본문법
     - <img src="../imagefile/38.png">
+  - Sass : CSS와 비슷하지만 별도의 문법을 이용해서 생산성이 높은 스타일 코드를 작성할 수 있게 도와준다.
 
+
+- ### CSS 작성밥법
+  - 일반적인 CSS파일로 작성하기
+  - css-module로 작성하기
+  - Sass로 작성하기
+  - css-in-js로 작성하기(제일 많이 사용)
 <br/>
 
 - ### Selector의 유형

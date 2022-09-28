@@ -37,8 +37,8 @@
     - `let n1 = 1234;` 
      
     - ex)`let arr4 = [true, 1, undefined, false, "h", 2, null, "i"]`
-    <br>
-    `console.log(arr4[3]) //false `
+    
+    - ex)`console.log(arr4[3]) //false `
   - 연산자
     - 대입연산자
     - 사칙연산자

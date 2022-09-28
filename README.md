@@ -7,7 +7,7 @@
     - framework(`NGULARJS`, `VUE.js`) 와 library(`React`)의 차이
       - 흐름에 대한 제어를 할 수 있는가 없는가
     - **SPA**를 쉽고 빠르게 만들어주는 도구
-    - <img src="../imagefile/62.png">
+    - <img src="imagefile/62.png">
 
 - ### 리액트 장점과 단점
   - 빠르다(Virtual DOM 사용)

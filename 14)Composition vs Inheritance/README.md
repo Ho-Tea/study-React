@@ -42,7 +42,8 @@
   ```
 
   - 다른 예제
-  <img src="../imagefile/30.png">
+    <img src="../imagefile/30.png">
+
     - `left` 와 `right` 라는 props 설정
     - `props.children`이나 직접 정의한 `props`를 이용하여 하위 컴포넌트를 포함하는 형태를 `Containment`라 한다
 

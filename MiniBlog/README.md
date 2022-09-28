@@ -50,7 +50,7 @@
 
 
 - ### 폴더 구성 하기
-  - <img src="../imgaefile/61.png">
+  - <img src="../imagefile/61.png">
 
 
 - ### bottom-up

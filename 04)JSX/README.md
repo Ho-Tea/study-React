@@ -89,8 +89,8 @@
 
 - ### JSX의 장점
   - 간결한 코드
-    - `<div>Hello {this.props.toWhat}</div>;` 사용한 경우
-    - `React.createElement('div',null,'Hello ${this.props.toWhat}');` 사용하지 않은 경우
+    - `<div>Hello {this.props.toWhat}</div>;` -> 사용한 경우
+    - `React.createElement('div',null,'Hello ${this.props.toWhat}');` -> 사용하지 않은 경우
   - 가독성 향상
     - 버그를 발견하기 쉬움
   - Injection Attacks 방어   
